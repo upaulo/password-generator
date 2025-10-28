@@ -1,0 +1,26 @@
+{
+	"name": "password-generator",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "npx vite --open",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint ./src",
+		"stylelint": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
+	},
+		"dependencies": {
+		"clipboard-copy": "^4.0.1",
+		"nanoid": "^5.0.1"
+	},
+	"devDependencies": {
+		"vite": "^7.1.7",
+		"eslint": "^8.50.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.28.1",
+		"stylelint": "^15.10.3",
+		"stylelint-config-idiomatic-order": "^9.0.0",
+		"stylelint-config-standard": "^34.0.0"
+	}
+}
